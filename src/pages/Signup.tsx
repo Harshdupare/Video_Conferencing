@@ -22,15 +22,13 @@ const Signup = () => {
 
 
   return (
-    <div>
-        <> 
-            <form action=''>
-              <input name='Username' type='text' placeholder="Username" required onChange={(e)=>{setUsername(e.target.value)}} /><br/>
-              <input name='Email' type='text' placeholder="Email" required onChange={(e)=>{setEmail(e.target.value)}} /><br/>
-              <input name='Password' type='text' placeholder="Password" required onChange={(e)=>{setPassword(e.target.value)}} /><br/>
-              <button onClick={signup}>Submit</button>
-            </form>
-        </>
+    <div className="">
+        <div> 
+            <input name='Username' type='text' placeholder="Username" required onChange={(e)=>{setUsername(e.target.value)}} /><br/>
+            <input name='Email' type='text' placeholder="Email" required onChange={(e)=>{setEmail(e.target.value)}} /><br/>
+            <input name='Password' type='text' placeholder="Password" required onChange={(e)=>{setPassword(e.target.value)}} /><br/>
+            <button onClick={signup}>Submit</button>
+        </div>
     </div>
   )
 }

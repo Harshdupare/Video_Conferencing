@@ -9,10 +9,10 @@ import Login from './pages/Login';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes> 
+          <Route path='/' element={<Login/>}/>
           <Route path='/Signup' element={<Signup/>}/>
-          <Route path='/Login' element={<Login/>}/>
-          <Route path='/' element={<Home/>} />
+          <Route path='/home' element={<Home/>} />
           <Route path='/meet/:roomId' element={<Room/>}/>
       </Routes>
      
