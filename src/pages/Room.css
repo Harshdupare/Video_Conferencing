@@ -1,0 +1,57 @@
+/* Remove background, border, and box shadow from .D9WLyEQaARfWqCTyVrpU */
+.D9WLyEQaARfWqCTyVrpU {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 50px !important;
+    height: auto;
+    width: 75% !important ;
+}
+
+/* Set background of children elements to transparent */
+.D9WLyEQaARfWqCTyVrpU > * {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Optional: Set specific styles for other elements if needed */
+.BYpXSnOHfrC2td4QRijO {
+    background: black;
+    border-color: black;
+}
+
+.QajuHzlZleFtiTUp_E8u {
+    box-shadow: 0px 0px 0px 0px #000000 !important;
+}
+
+.pOvRwHj19chJGkgemUH3 {
+    border-radius: 12px;
+    padding: 20px !important;
+    margin: 5px;
+    width: 400px !important;
+}
+
+#myCallContainer {
+    width: auto;
+    height: 100vh; 
+}
+
+.sJcgXLqA2Va2eqymgksg {
+    margin: 5px;
+    right: 0px;
+    width: 400px !important;
+}
+
+.ji5jASszKFf2CGCmbxEh {
+    background: #000000 !important;
+}
+
+.Ubqx57BWwgO05T0rhxzR .Yb8CIZ4sfRB7tGNIe5vW {
+    background: #000000 !important;
+    
+}
+
+.Ubqx57BWwgO05T0rhxzR .YVsLErvDz5lZnY9Ce4UB ._gK_8I1XIktCDlYp08Lg {
+    color:#ffffff !important;
+}

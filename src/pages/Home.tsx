@@ -12,23 +12,24 @@ const Home = () => {
 
   return (
     <div>
-        <div className='joinMeet'>
-            <input 
-             type='text'
-             value={roomId} 
-             onChange={(e)=>{setRoomId(e.target.value)}}
-             placeholder='Meet-ID'
-             />
-            <br></br>
-            <button onClick={redirect}>join Meeting</button>
-        </div><br/>
-
-        <div className='connected_user'>
-            <button className=''>Logout</button>
-            <h3>Connected User</h3>
-            <ul></ul>
-        </div><br/>
-	  </div>
+       <div className='flex justify-center relative top-44 text-2xl'>
+            <h1 className='text-white'>Enter or Create Meeting-Id</h1>
+        </div>
+        <div className='flex justify-center relative top-44 '>
+          <div className='joinMeet w-96 h-68 rounded-lg p-5 bg-gradient-to-r from-gray-900 to bg-gray-700'>
+              <input 
+              type='text'
+              value={roomId} 
+              onChange={(e)=>{setRoomId(e.target.value)}}
+              placeholder='Meet-ID'
+              className='m-1 p-2 w-full text-white'
+              />
+              <br></br>
+              <button className='m-2 p-2 w-28 text-white bg-sky-600' onClick={redirect}>join Meeting</button>
+          </div>
+        </div>
+    </div>
+    
   )
 }
 
