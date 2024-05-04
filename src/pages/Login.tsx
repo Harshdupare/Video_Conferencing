@@ -9,7 +9,7 @@ const Login = () => {
 
   const login = async()=>{
     try{
-        const res = await axios.post("http://127.0.0.1:8080/api/v1/users/login",{
+        const res = await axios.post("http://172.22.80.1:8080/api/v1/users/login",{
                 Email : Email,
                 Password : Password,
             },
